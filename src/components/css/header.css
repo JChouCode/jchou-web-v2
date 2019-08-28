@@ -5,11 +5,15 @@
 }
 
 .logo img {
-  width: 92px;
-  height: 69px;
+  width: 47px;
+  height: 47px;
 }
 
-.logo h1 {
+.logo div {
   font-size: 18px;
-  line-height: 1em;
+}
+
+nav {
+  color: #1C1D1E;
+  font-weight: bold;
 }

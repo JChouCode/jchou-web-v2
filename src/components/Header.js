@@ -26,12 +26,13 @@ export default () => {
   return (
     <div className="header-wrapper">
       <Link to="/"className="logo">
-        <img alt="dog" src={require("./../assets/dog-small.png")}></img>
-        <div>Jeffrey<br></br>Chou</div>
+        <img alt="logo" src={require("./../assets/logo.png")}></img>
+        <div>Chou</div>
       </Link>
       <nav id="navbar">
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/experience">Experience</Link>
+        <Link to="/experience">Work</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
       </nav>
