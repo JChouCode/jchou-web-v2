@@ -1,26 +1,6 @@
 import React from "react"
-import { useSiteData } from "react-static"
 import { Link, Router } from 'components/Router'
-import GitHubButton from 'react-github-btn'
-// import logo from "./../assets/dog-static.png"
-// import "./css/header.css"
-
-
-const GRAPHCMS_endpoint = "https://api-uswest.graphcms.com/v1/cjyt00rv801nc01e3fhxy6izr/master";
-
-const query =
-  `{
-  posts{
-    id
-    title
-    image {
-      handle
-    }
-    content
-  }
-}`;
-
-
+import "./css/header.css"
 
 export default () => {
   return (
