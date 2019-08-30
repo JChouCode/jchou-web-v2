@@ -1,14 +1,17 @@
 import React from "react"
 import GitHubButton from 'react-github-btn'
-
+import "./css/footer.css"
 
 export class Footer extends React.Component {
   render() {
     return (
-      <div className="container-footer">
-        <div>Copyright © Jeffrey Chou</div>
-        {/* <GitHubButton href="https://github.com/JChouCode" data-size="large" data-show-count="true" aria-label="Follow @JChouCode on GitHub">Follow @JChouCode</GitHubButton> */}
-        <GitHubButton href="https://github.com/jchoucode/jchou-web" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star jchoucode/jchou-web on GitHub">Star</GitHubButton>
+      <div className="footer-wrapper">
+        <div className="logo">
+          <img alt="logo" src={require("./../assets/logo.png")}></img>
+          <div>Chou</div>
+        </div>
+        <div className="bar"></div>
+        <div>© Copyright 2019 Chou.<br></br>All rights reserved.</div>
       </div>
     )
   }

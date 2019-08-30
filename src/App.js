@@ -5,6 +5,7 @@ import { Router, Match } from '@reach/router'
 import Dynamic from 'containers/Dynamic'
 import {Route} from 'react-router-dom';
 import {Header} from 'components/Header'
+import {Footer} from 'components/Footer'
 import { Helmet } from 'react-helmet'
 import './app.css'
 import { ScrollToTop } from "components/ScrollToTop"
@@ -33,6 +34,7 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
+      <Footer></Footer>
     </Root >
   )
 }
