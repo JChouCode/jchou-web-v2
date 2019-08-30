@@ -57,3 +57,29 @@ span {
   height: 30px;
   background: #681D7E;
 }
+
+.contact {
+  margin-top: 8em;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  color: #5661DE;
+}
+
+.contact-item {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.contact-item-text {
+  margin-left: 1em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.contact-item-img svg {
+  width: 2em;
+  height: 2em;
+  fill: #5661DE;
+}
