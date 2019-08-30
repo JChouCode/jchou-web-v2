@@ -1,0 +1,16 @@
+.footer-wrapper {
+  padding-left: 8em;
+  height: 200px;
+  margin-top: 10em;
+}
+
+.bar {
+  background: #707070;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  height: 1px;
+}
+
+#copyright {
+  line-height: 1.5em;
+}

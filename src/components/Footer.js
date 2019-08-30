@@ -11,7 +11,7 @@ export class Footer extends React.Component {
           <div>Chou</div>
         </div>
         <div className="bar"></div>
-        <div>© Copyright 2019 Chou.<br></br>All rights reserved.</div>
+        <div id="copyright">© Copyright 2019 Chou.<br></br>All rights reserved.</div>
       </div>
     )
   }

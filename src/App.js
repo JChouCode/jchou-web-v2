@@ -18,7 +18,8 @@ function App() {
     <Root>
       <Helmet>
         <meta charSet="utf-8"></meta>
-        <title>Jeffrey Chou</title>
+        <title>Chou</title>
+        <link rel="icon" href="./assets/logo.png"></link>
         <meta name="description" content="Hi, I’m a student at Cornell University studying Computer Science and Physics.
         My interests include software/fullstack dev, and data science.
         Built with React & GraphQL"></meta>

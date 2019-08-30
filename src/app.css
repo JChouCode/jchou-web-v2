@@ -52,16 +52,6 @@ body {
   width: 1.5em;
 }
 
-.container-footer {
-  position: absolute;
-  color: gray;
-  display: flex;
-  width: 18.6em;
-  bottom: 3em;
-  justify-content: space-between;
-
-}
-
 .container {
   width: 80%;
   height: 100%;
@@ -84,91 +74,29 @@ body {
   white-space: normal;
 }
 
-.row {
-  display: flex;
-  width: 70%;
-  margin: auto;
-  margin-top: 5em;
-  justify-content: space-around;
-  font-size: 18px;
-  align-content: flex-start;
-  align-items: flex-start;
-}
-
-.row a {
-  text-decoration: none;
-  text-align: left;
-  color: black;
-}
-
-ul {
-  list-style-image: url("./assets/dash.svg")
-}
-
-p {
-  white-space: pre;
-}
-
-a p span {
-  background: yellow;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
-  align-items: flex-start;
-}
-
-.index {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 7em;
-  padding-bottom: 2em;
-}
-
-.index h1 {
-  margin-top: -1em;
-  font-size: 2.5em;
-}
-
-.index p span {
-  font-weight: 300;
-}
-
-.index p {
-  font-weight: 300;
-  line-height: 1.5em;
-  font-size: 18px;
-}
-
-.index img {
-  width: 320px;
-  height: 239px;
-  margin: auto;
-  display: block;
-}
-
 img {
   max-width: 100%;
 }
 
 .content {
-  padding: 1rem;
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
-.footer {
-  margin-top: 8em;
-  color: gray;
+@font-face {
+  font-family: 'Graphik';
+  src: url('fonts/Graphik-Bold.woff2') format('woff2'),
+    url('fonts/Graphik-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
-.footer p {
-  font-size: 17px;
-}
-
-.footer a {
-  color: black;
+@font-face {
+  font-family: 'Graphik';
+  src: url('fonts/Graphik-BoldItalic.woff2') format('woff2'),
+    url('fonts/Graphik-BoldItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
