@@ -7,14 +7,14 @@
 }
 
 .logo img {
-  width: 27px;
-  height: 27px;
+  width: 32px;
+  height: 32px;
 }
 
 .logo div {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
-  margin-left: 0.2em;
+  margin-left: 0.3em;
 }
 
 .header-wrapper {
@@ -22,14 +22,15 @@
   top: 0;
   width: 100%;
   height: 100px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.994946) 43.52%, #F7F8FB 100%);
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.994946) 43.52%, #F7F8FB 100%); */
+  background: #FCFCFE;
   color: #1C1D1E;
+  max-width: 1200px;
   display: flex;
   z-index: 100;
   align-content: center;
   align-items: center;
-  padding-left: 7em;
-  padding-right: 1em;
+  padding-left: 8em;
 }
 
 #nav-right {
@@ -51,20 +52,16 @@ li a {
 nav {
   margin-left: 4em;
   display: flex;
-  width: 30em;
+  width: 23em;
   justify-content: space-between;
 
 }
 
 nav a {
   color: inherit;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   margin-right: 23px;
   text-decoration: none;
-}
-
-nav a:active {
-  color: black;
-  border-bottom: 2px solid #1C1D1E;
+  padding-bottom: 4px;
 }

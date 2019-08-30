@@ -19,6 +19,7 @@
     "react-github-btn": "^1.0.6",
     "react-helmet": "^5.2.1",
     "react-markdown": "^4.1.0",
+    "react-router-dom": "^5.0.1",
     "react-static": "^7.0.0",
     "react-static-plugin-reach-router": "^7.0.0",
     "react-static-plugin-sitemap": "^7.0.0",

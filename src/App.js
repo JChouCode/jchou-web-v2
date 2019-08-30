@@ -3,7 +3,8 @@ import ReactDom from 'react-dom';
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
 import { Router, Match } from '@reach/router'
 import Dynamic from 'containers/Dynamic'
-import Header from 'components/Header'
+import {Route} from 'react-router-dom';
+import {Header} from 'components/Header'
 import { Helmet } from 'react-helmet'
 import './app.css'
 import { ScrollToTop } from "components/ScrollToTop"
