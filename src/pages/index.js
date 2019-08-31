@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, Router } from 'components/Router'
 import GitHubButton from 'react-github-btn'
 import "./css/index.css"
-// import { ScrollToTopController } from 'components/scroll'
 
 export default () => (
   <div className="index">
@@ -13,7 +12,44 @@ export default () => (
       <div id="circle-medium"></div>
       <div id="circle-small"></div>
     </div> */}
-    <img alt="circles" id="circles" src={require("./../assets/circles-web.png")}></img>
+
+    <div id="circle-medium">
+      <svg
+        width="600"
+        height="600"
+        viewBox="0 0 600 600"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g transform="translate(300,300)">
+          <path d="M163.5,-105.1C192,-45.2,181.3,26.7,147.5,80C113.7,133.3,56.9,168.2,-3.2,170C-63.2,171.8,-126.4,140.7,-168.3,82.7C-210.2,24.7,-230.7,-60.2,-199,-121.9C-167.4,-183.7,-83.7,-222.3,-8.1,-217.7C67.5,-213,135.1,-165,163.5,-105.1Z" fill="#681d7e" />
+        </g>
+      </svg>
+    </div>
+    <div id="circle-small">
+      <svg
+        width="600"
+        height="600"
+        viewBox="0 0 600 600"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g transform="translate(300,300)">
+          <path d="M137.1,-60.2C179,-6.7,215.1,69.2,191.2,122.4C167.4,175.7,83.7,206.3,15,197.7C-53.7,189,-107.4,141,-130,88.4C-152.7,35.8,-144.3,-21.3,-117.5,-66.2C-90.6,-111,-45.3,-143.5,1.2,-144.2C47.6,-144.8,95.3,-113.7,137.1,-60.2Z" fill="#ff5847" />
+        </g>
+      </svg>
+    </div>
+    <div id="circle-large">
+      <svg
+        width="600"
+        height="600"
+        viewBox="0 0 600 600"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g transform="translate(300,300)">
+          <path d="M135.9,-131.2C181.7,-90,228.4,-45,238.6,10.3C248.9,65.5,222.7,131.1,176.9,176.1C131.1,221.1,65.5,245.5,8.5,237C-48.6,228.6,-97.1,187.1,-122.1,142.1C-147.1,97.1,-148.6,48.6,-148.2,0.4C-147.8,-47.8,-145.7,-95.7,-120.7,-136.9C-95.7,-178,-47.8,-212.5,-1.4,-211.1C45,-209.7,90,-172.4,135.9,-131.2Z" fill="#ffdfca" />
+        </g>
+      </svg>
+    </div>
+    {/* <img alt="circles" id="circles" src={require("./../assets/circles-web.png")}></img> */}
     <div className="row">
       <div className="column">
         <div>
