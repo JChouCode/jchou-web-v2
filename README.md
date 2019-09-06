@@ -2,6 +2,6 @@
 
 
 
-![demo](demo/web-demo.gif)
+![demo](demo/demo.png)
 
 Revamped personal website built from scratch with React, GraphQL, GraphCMS
